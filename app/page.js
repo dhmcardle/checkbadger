@@ -136,46 +136,109 @@ export default function Home() {
       </section>
 
       {/* FEATURES */}
-      <section className="max-w-6xl mx-auto px-6 py-16">
+      <section className="max-w-6xl mx-auto px-6 py-20">
 
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-3 gap-8">
 
-          <div className="p-6 border rounded-xl bg-white shadow-sm hover:shadow-md transition">
-            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-50 mb-4">
-              <ShieldCheck className="h-5 w-5 text-blue-600" />
+          <div className="bg-white border rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+
+            <div className="w-12 h-12 rounded-xl bg-green-100 flex items-center justify-center">
+              <ShieldCheck className="text-green-600 w-6 h-6" />
             </div>
-            <h3 className="font-semibold">Independent</h3>
-            <p className="text-sm text-slate-500 mt-2">
-              Not a lead marketplace. No pay-to-rank. No bias.
+
+            <h3 className="mt-6 text-lg font-semibold text-slate-900">
+              Independently Verified
+            </h3>
+
+            <p className="mt-3 text-sm text-slate-600">
+              We review submitted contractor credentials before approval. No self-reported claims.
             </p>
+
           </div>
 
-          <div className="p-6 border rounded-xl bg-white shadow-sm hover:shadow-md transition">
-            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-50 mb-4">
-              <FileCheck className="h-5 w-5 text-blue-600" />
+          <div className="bg-white border rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+
+            <div className="w-12 h-12 rounded-xl bg-blue-100 flex items-center justify-center">
+              <FileCheck className="text-blue-600 w-6 h-6" />
             </div>
-            <h3 className="font-semibold">Verified Data</h3>
-            <p className="text-sm text-slate-500 mt-2">
-              Insurance and identity information reviewed before approval.
+
+            <h3 className="mt-6 text-lg font-semibold text-slate-900">
+              Insurance Transparency
+            </h3>
+
+            <p className="mt-3 text-sm text-slate-600">
+              Homeowners can confirm coverage status before work begins — reducing risk and uncertainty.
             </p>
+
           </div>
 
-          <div className="p-6 border rounded-xl bg-white shadow-sm hover:shadow-md transition">
-            <div className="w-10 h-10 flex items-center justify-center rounded-lg bg-blue-50 mb-4">
-              <Eye className="h-5 w-5 text-blue-600" />
+          <div className="bg-white border rounded-2xl p-8 shadow-lg hover:shadow-xl transition">
+
+            <div className="w-12 h-12 rounded-xl bg-amber-100 flex items-center justify-center">
+              <Eye className="text-amber-600 w-6 h-6" />
             </div>
-            <h3 className="font-semibold">Transparent</h3>
-            <p className="text-sm text-slate-500 mt-2">
-              Homeowners see what matters before work begins.
+
+            <h3 className="mt-6 text-lg font-semibold text-slate-900">
+              Visible Trust Signal
+            </h3>
+
+            <p className="mt-3 text-sm text-slate-600">
+              Contractors share a QR code that proves legitimacy instantly at the job site.
             </p>
+
+          </div>
+
+        </div>
+
+      </section>
+      
+
+      <section className="max-w-5xl mx-auto px-6 py-20">
+
+        <div className="bg-white border rounded-2xl shadow-xl p-8">
+
+          <h2 className="text-xl font-semibold text-slate-900">
+            What verification includes
+          </h2>
+
+          <div className="mt-8 grid md:grid-cols-3 gap-6">
+
+            <div>
+              <h3 className="font-medium text-slate-900">Business Identity</h3>
+              <ul className="mt-3 text-sm text-slate-600 space-y-2">
+                <li>✔ Registered business name</li>
+                <li>✔ Owner / responsible party</li>
+                <li>✔ Years in business</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-medium text-slate-900">Insurance Verification</h3>
+              <ul className="mt-3 text-sm text-slate-600 space-y-2">
+                <li>✔ Active coverage status</li>
+                <li>✔ Policy limits reviewed</li>
+                <li>✔ Expiration tracking</li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 className="font-medium text-slate-900">Ongoing Monitoring</h3>
+              <ul className="mt-3 text-sm text-slate-600 space-y-2">
+                <li>✔ Status updates</li>
+                <li>✔ Renewal tracking</li>
+                <li>✔ Visibility to homeowners</li>
+              </ul>
+            </div>
+
           </div>
 
         </div>
 
       </section>
 
+      
       {/* FINAL CTA */}
-      <section className="relative py-24 text-center text-white">
+      <section className="relative py-24 text-center text-slate-500">
 
         {/* gradient background */}
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900"></div>
