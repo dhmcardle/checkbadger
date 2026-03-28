@@ -38,14 +38,14 @@ export default function Home() {
             <div className="mt-8 flex gap-4">
 
               <a
-                href="/contractors"
+                href="/signup"
                 className="bg-amber-500 text-black px-6 py-3 rounded-lg font-semibold shadow hover:bg-amber-400 transition"
               >
                 Get Verified
               </a>
 
               <a
-                href="/homeowners"
+                href="/contractors"
                 className="bg-white text-slate-900 px-6 py-3 rounded-lg font-medium shadow"
               >
                 Search Contractors
@@ -87,6 +87,8 @@ export default function Home() {
         </div>
 
       </section>
+
+      
 
       {/* PROBLEM */}
       <section className="max-w-6xl mx-auto px-6 py-16">
@@ -236,7 +238,7 @@ export default function Home() {
 
       </section>
 
-      
+
       {/* FINAL CTA */}
       <section className="relative py-24 text-center text-slate-500">
 
@@ -252,7 +254,7 @@ export default function Home() {
         </p>
 
         <a
-          href="/contractors"
+          href="/signup"
           className="inline-block mt-8 bg-white text-slate-900 px-6 py-3 rounded-xl font-medium shadow hover:bg-slate-100 transition"
         >
           Get Verified
